@@ -1,0 +1,61 @@
+Create Vite React App:                                                  
+* Install Node 18 >=                                                    
+* yarn create vite vite-app --template react
+* NPM
+* Absolute Imports (Alias)
+* Directories & File names
+* Scripts in Package.json
+* Create App
+* RUN / Build
+* UseMemo & UseCallback => Widget Tree
+* Arrow Functions
+* States
+* Functions
+* Reusable Components
+* Props
+* Effect
+* Routes & Navigate
+
+* State Manegement
+* Cookies
+* API Calls
+* Env Files
+* Build
+* Debug & Inspect
+
+=============================================================================================
+Create Flutter:
+* Install Android Studio / X Code
+* Install VS Code
+* Install VS Code Extensions (Dart, Flutter)
+* Open https://docs.flutter.dev/get-started/install
+* Install Flutter SDK and Unzip it In C:/
+* Add Virtual Device
+* Add Dir to System Environment Variables C:\flutter\flutter_windows_3.24.3-stable\flutter\bin
+
+* Check Flutter Dependencies and Installations: flutter doctor
+* Create New Project: flutter create <app name>
+* Install Dependencies (pub.dev): flutter pub add <package name>
+* Publish Package: publish_to in pubspec.yaml 
+* Import Package: import "package:<package name>"
+* Check Available Devices (Real): flutter devices
+* Check Available Devices (Real): flutter emulators
+* Run Emulator: flutter emulators --launch <emulator_id>
+* Run APP: flutter run (Will run on running emulator) or flutter run -d <emulator_id> 
+* Run App in Debug mode: flutter run --debug
+* Run App In Inspector: flutter inspect
+* Import File: import "package:<project name in pubspec.yaml>/dir to file"  
+* Build
+
+
+* Splash Screen
+* final & const
+
+* Emulator Settings (Wipe, Always on Top, ...)
+* Flutter run key commands:
+    r Hot reload.
+    R Hot restart.
+    h List all available interactive commands.
+    d Detach (terminate "flutter run" but leave application running).
+    c Clear the screen
+    q Quit (terminate the application on the device).
