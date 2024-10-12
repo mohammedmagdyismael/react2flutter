@@ -22,9 +22,11 @@ class SecondScreenState extends State<SecondScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: const Text('Screen Two'),
+      ),
       body: Column(
         children: [
-          const Text('Screen Two'),
           ElevatedButton(
               onPressed: () =>
                   {Navigator.pushNamed(context, Routes.firstscreen)},

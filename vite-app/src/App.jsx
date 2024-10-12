@@ -1,35 +1,25 @@
-import { useCallback, useEffect, useState } from 'react'
-import Row from './Row';
+import { ThemeProvider } from 'styled-components';
+import FirstView from './views/FirstView';
+import SecondView from './views/SecondView';
+import {
+    BrowserRouter as Router,
+    Routes,
+    Route,
+  } from 'react-router-dom';
+  
+  const App = () => {
+    return (
+        <>
+            <ThemeProvider theme={{}}>
+                <Router>
+                    <Routes>
+                        <Route path="/" element={<FirstView />} />
+                        <Route path="/secondview" element={<SecondView />} />
+                    </Routes>   
+                </Router>
+            </ThemeProvider>
+        </>
+    )
+};
 
-function App() {
-  const [count, setCount] = useState(0)
-
-  useEffect(() => {
-    console.log('State Changed');
-  }, [count]);
-
-  const increaseCount = newvalue => {
-    setCount(newvalue);
-  };
-
-  const renderRows = useCallback(() => {
-    const arrayOfRows = [];
-    for (let i = 0; i < count ; i++) {
-      arrayOfRows.push(<Row id={i} key={i} />)
-    }
-    return arrayOfRows;
-  }, [count]);
-
-  return (
-    <>
-      <div>
-        {
-          renderRows()
-        }
-        <div style={{ height: '100px', width: '100px', background: 'yellow', cursor: 'pointer' }} onClick={() => increaseCount(count + 1)}>Click Me</div>
-      </div>
-    </>
-  )
-}
-
-export default App
+export default App;

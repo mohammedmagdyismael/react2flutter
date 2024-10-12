@@ -15,12 +15,12 @@ Create Vite React App:
 * Props
 * Effect
 * Routes & Navigate
+* Build
 
 * State Manegement
-* Cookies
+* Cookies 
 * API Calls
 * Env Files
-* Build
 * Debug & Inspect
 
 =============================================================================================
@@ -43,10 +43,13 @@ Create Flutter:
 * Run Emulator: flutter emulators --launch <emulator_id>
 * Run APP: flutter run (Will run on running emulator) or flutter run -d <emulator_id> 
 * Run App in Debug mode: flutter run --debug
-* Run App In Inspector: flutter inspect
+* Run App in Performance mode: flutter run --profile
 * Import File: import "package:<project name in pubspec.yaml>/dir to file"  
-* Build
-
+* Build Android (APK): flutter build apk --release =>  'build/app/outputs/flutter-apk/'
+* Build Android (Google Play Upload): flutter build appbundle --release  => 'build/app/outputs/bundle/release'
+* Build iOS (macOS):
+    (cocoapods installed): sudo gem install cocoapods
+    build: flutter build ios --release
 
 * Splash Screen
 * final & const
