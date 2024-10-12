@@ -1,5 +1,6 @@
 function SecondView() {
 
+  const printMsg = () => console.log("i'm arrow function")
 
   return (
     <>
@@ -8,6 +9,7 @@ function SecondView() {
 
         <button
         onClick={() => {
+            printMsg();
             window.location.pathname = '/';
           }}
         >

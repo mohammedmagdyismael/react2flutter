@@ -16,9 +16,9 @@ Create Vite React App:
 * Effect
 * Routes & Navigate
 * Build
-
-* State Manegement
-* Cookies 
+* Storage:
+    Cookies + LocalStorage
+    SessionStorage
 * API Calls
 * Env Files
 * Debug & Inspect
@@ -53,6 +53,10 @@ Create Flutter:
 
 * Splash Screen
 * final & const
+
+* Storage
+    Provider/ChangeNotifier and Repository pattern
+    Shared Preferences
 
 * Emulator Settings (Wipe, Always on Top, ...)
 * Flutter run key commands:
