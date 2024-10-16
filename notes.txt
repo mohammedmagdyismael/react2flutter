@@ -19,9 +19,11 @@ Create Vite React App:
 * Storage:
     Cookies + LocalStorage
     SessionStorage
-* API Calls
-* Env Files
 * Debug & Inspect
+
+- API Calls
+- Env Files
+- Splash Screen
 
 =============================================================================================
 Create Flutter:
@@ -51,12 +53,10 @@ Create Flutter:
     (cocoapods installed): sudo gem install cocoapods
     build: flutter build ios --release
 
-* Splash Screen
-* final & const
-
 * Storage
-    Provider/ChangeNotifier and Repository pattern
     Shared Preferences
+    Provider/ChangeNotifier and Repository pattern
+    Singelton
 
 * Emulator Settings (Wipe, Always on Top, ...)
 * Flutter run key commands:
