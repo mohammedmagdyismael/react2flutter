@@ -32,8 +32,8 @@ Create Flutter:
 * Install VS Code Extensions (Dart, Flutter)
 * Open https://docs.flutter.dev/get-started/install
 * Install Flutter SDK and Unzip it In C:/
-* Add Virtual Device
 * Add Dir to System Environment Variables C:\flutter\flutter_windows_3.24.3-stable\flutter\bin
+* Add Virtual Device
 
 * Check Flutter Dependencies and Installations: flutter doctor
 * Create New Project: flutter create <app name>
